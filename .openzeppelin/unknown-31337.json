@@ -1,0 +1,100 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+    "txHash": "0xf655424ba8d55d15939559ada4bbc931394709618ff1c25414191177d4cec8eb"
+  },
+  "proxies": [
+    {
+      "address": "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9",
+      "txHash": "0x35ae270eb8ee6d14b42d6c81a3a23a074e2961fb9e038002f2307175b3648b5e",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x0165878A594ca255338adfa4d48449f69242Eb8F",
+      "txHash": "0xe33ed03981bd7d7360aebba1e1bab3ff9137714ed718ae35679c3a09c7a58728",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x8A791620dd6260079BF849Dc5567aDC3F2FdC318",
+      "txHash": "0x2db2e229dc44305b8e8b6e6a03bb692662decac9f8dffe0257767f8b43512291",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x610178dA211FEF7D417bC0e6FeD39F05609AD788",
+      "txHash": "0x6117926cc5d561edfdbbc8269240e52d705ea8913005c950db9be1932b88a752",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xA51c1fc2f0D1a1b8494Ed1FE312d7C3a78Ed91C0",
+      "txHash": "0x50dc3aa0b96f1da1130c00e5c8d632dd0fa258cc62608faae5d1c1ee0711e493",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x9A676e781A523b5d0C0e43731313A708CB607508",
+      "txHash": "0xbda2592ff94c3bc594b3fdd328d35fb2bf84e3d09af5ebf71febeea186109f9c",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+      "txHash": "0x2353eebf4f05874bc9508eb613043737eaa9b1a0af50c29dcb24b102e2777dcf",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "e47163745db384556bd6aff979b096137ffb85b0bc1c5e8c33a35d5ced660281": {
+      "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+      "txHash": "0xb07404a3679f55cf9c3e7a93a8a619857bbbebf1b7add756a482d637629b94a7",
+      "layout": {
+        "solcVersion": "0.8.2",
+        "storage": [
+          {
+            "label": "age",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "Age",
+            "src": "contracts/Proxies/Transparent/Age.sol:6"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "7cdcb7cd69adebb2535ab3798c1ce9800aed9bd8c46f50ca7fd96ef47aa5e38d": {
+      "address": "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9",
+      "txHash": "0xab238a84a8594240815d787dd330de3e30233ec4100d09fdf51af930fcbb406c",
+      "layout": {
+        "solcVersion": "0.8.2",
+        "storage": [
+          {
+            "label": "age",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "AgeV2",
+            "src": "contracts/Proxies/Transparent/AgeV2.sol:6"
+          },
+          {
+            "label": "ageV2",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "AgeV2",
+            "src": "contracts/Proxies/Transparent/AgeV2.sol:7"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,2 +1,2 @@
-task("airdrop", "Airdrop to users", require("./airdrop.js"));
+task("update", "update contract", require("./update.js"));
 
